@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.caixaInputs{
+    padding: 5px
+}
+
+.navMenu{
+    background-color: #D3DE78;
+    height: 100px;
+    width: 100%;
+}
+
+
+input{
+    display: flex;
+    background-color: #747567;
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    align-content: center;
+    border: #54554b;
+}
+
+.btnGravar{
+    background-color:#747567;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width: 100%;
+
+
+}

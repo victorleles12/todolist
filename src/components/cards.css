@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+
+
+.container{
+    max-width: 360px;
+	margin: 0 auto;
+	display: inline-grid;
+    padding: 1px;
+    grid-template-columns: 100px 100px 100px 100px;
+
+}
+
+.card{
+    background-color: #B5CEB0;
+    width: 350px;
+    height: 150px;
+    border-radius: 5px;
+    margin-left: 30%;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px 2px ;
+    margin-top: 30px;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 1rem;
+}
+.apagar{
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.editar{
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+#novoInput{
+    background-color: #8ea389;
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
