@@ -1,21 +1,12 @@
 import React from 'react'
 import './cards.css'
-import { BsFillTrashFill, BsPencil } from "react-icons/bs";
+import { BsFillTrashFill } from "react-icons/bs";
 
 function card(props){
 
     let apagarcard = function apagar(){
         props.deletarCard(props.id)
     }
-
-    let editar = function editardados(){
-        var novoInput = document.createElement("input");
-        novoInput.setAttribute("id", "novoInput");
-        var oldElement = document.getElementById("titulo1");
-        var parentDiv = oldElement.parentNode;
-        console.log(parentDiv)
-        parentDiv.replaceChild(novoInput, oldElement)
-  }
 
             return(
                 <div className='container'>
