@@ -23,7 +23,6 @@ function card(props){
                         <h1 id='titulo1'>{props.titulo}</h1>
                         <p id='mensagem'>{props.mensagem}</p>
                         <button className='apagar' onClick={apagarcard} ><BsFillTrashFill/></button>
-                        <button className='editar' onClick={editar}><BsPencil/></button>
                     </div>
                 </div>
             )
