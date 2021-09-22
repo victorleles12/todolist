@@ -3,7 +3,7 @@ const axios = require('axios');
 async function dadosDoBd(){
   var config = {
     method: 'get',
-    url: 'http://localhost:8080/getdados',
+    url: 'https://applistadetarefas.herokuapp.com/getdados',
     headers: { }
   };
 
@@ -15,7 +15,7 @@ async function postBd(fields){
   console.log(fields)
   let config = {
     method: 'post',
-    url: 'http://localhost:8080/postdados',
+    url: 'https://applistadetarefas.herokuapp.com/postdados',
     data : {fields}
   };
 
@@ -34,7 +34,7 @@ async function deleteBd(id){
 
 let config = {
   method: 'delete',
-  url: 'http://localhost:8080/deletedados/' +  id,
+  url: 'https://applistadetarefas.herokuapp.com/deletedados/' +  id,
   data : data
 };
 
