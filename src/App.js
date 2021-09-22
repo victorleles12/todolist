@@ -21,7 +21,7 @@ function App(){
   //função para gravar no banco
   function gravar(e){
     e.preventDefault()
-    postBd({titulo: titulo, mensagem: mensagem})
+    postBd({titulo: titulo.titulo, mensagem: mensagem.mensagem})
   }
   
   //função para deletar o card
