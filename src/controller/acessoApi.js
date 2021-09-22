@@ -6,7 +6,6 @@ async function dadosDoBd(){
     url: 'https://applistadetarefas.herokuapp.com/getdados',
     headers: { }
   };
-
   const res = await axios(config);
   return res.data;
 }

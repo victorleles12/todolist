@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {dadosDoBd, postBd, deleteBd} from './controller/acessoApi';
+import { dadosDoBd, postBd, deleteBd } from './controller/acessoApi';
 import BarraInput from './components/barraInput'
 import Card from './components/cards';
 import './App.css';
